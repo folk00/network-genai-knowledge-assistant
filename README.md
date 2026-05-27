@@ -99,33 +99,21 @@ script.
 
 ## Architecture At A Glance
 
-```text
-                 +------------------------------+
-                 | Full PySide6 GUI             |
-                 | state, profiles, reports     |
-                 +---------------+--------------+
-                                 |
-                                 v
-                 +---------------+--------------+
-                 | Workflow Orchestrator        |
-                 | deterministic app logic      |
-                 +-------+---------------+------+
-                         |               |
-                         v               v
-          +--------------+--+        +---+----------------+
-          | Retrieval Layer |        | LLM Provider Layer  |
-          | chunks, metadata|        | Claude/OpenAI style |
-          | citations       |        | timeout/progress    |
-          +--------------+--+        +---+----------------+
-                         |               |
-                         v               v
-              +----------+---------------+----------+
-              | Grounded study/diagnostic reports   |
-              | Markdown / HTML artifacts           |
-              +-------------------------------------+
+```mermaid
+flowchart LR
+    GUI[Full PySide6 GUI] --> State[State + Profiles + Reports]
+    GUI --> Workflows[AI Workflows]
+    GUI --> RAG[RAG KB]
+    RAG --> Retrieval[Chunks + Metadata + Citations]
+    Retrieval --> Prompt[Grounded Prompt]
+    Workflows --> Provider[Claude/OpenAI Style Backend]
+    Prompt --> Provider
+    Provider --> Artifacts[Markdown / HTML Artifacts]
 ```
 
 The application owns the workflow. The LLM does not own the app.
+
+More diagrams are available in [docs/diagrams.md](docs/diagrams.md).
 
 The application controls:
 

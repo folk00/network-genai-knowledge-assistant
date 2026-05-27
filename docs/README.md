@@ -14,26 +14,29 @@ clearly without overstating the maturity of the implementation.
 3. [data_safety_model.md](data_safety_model.md)  
    What is safe to publish and what must remain private.
 
-4. [interview_pitch.md](interview_pitch.md)  
+4. [diagrams.md](diagrams.md)  
+   Mermaid diagrams for architecture, RAG flow and data safety.
+
+5. [interview_pitch.md](interview_pitch.md)  
    Short and long ways to describe the project.
 
-5. [current_app_mapping.md](current_app_mapping.md)  
+6. [current_app_mapping.md](current_app_mapping.md)  
    Mapping from the original GUI features to enterprise RAG concepts.
 
-6. [rag_langchain_notes.md](rag_langchain_notes.md)  
+7. [rag_langchain_notes.md](rag_langchain_notes.md)  
    How the local RAG scaffold relates to LangChain and vector stores.
 
-7. [safe_sdk_usage.md](safe_sdk_usage.md)  
+8. [safe_sdk_usage.md](safe_sdk_usage.md)  
    How live LLM calls are gated in standalone scripts.
 
-8. [github_safety_checklist.md](github_safety_checklist.md)  
+9. [github_safety_checklist.md](github_safety_checklist.md)  
    Final checklist before pushing to GitHub.
 
-9. [architecture.md](architecture.md)  
+10. [architecture.md](architecture.md)  
    Architecture diagrams and design principles.
 
-10. [known_limitations.md](known_limitations.md)  
+11. [known_limitations.md](known_limitations.md)  
     Honest boundaries and production-hardening gaps.
 
-11. [roadmap.md](roadmap.md)  
+12. [roadmap.md](roadmap.md)  
     Next steps if this becomes a larger reference project.

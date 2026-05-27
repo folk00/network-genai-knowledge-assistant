@@ -1,0 +1,4 @@
+qid,correct_answer,pattern_id,tags,notes
+1,B,TGW_VPN_ROUTING,"Transit Gateway;Site-to-Site VPN;BGP",Synthetic override row for demo only
+2,A,SDWAN_BFD,"Cisco SD-WAN;BFD;OMP",Synthetic override row for demo only
+

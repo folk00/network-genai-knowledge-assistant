@@ -1,0 +1,12 @@
+# Core demo has no hard dependency beyond Python stdlib.
+#
+# Optional enterprise/RAG stack:
+claude-agent-sdk>=0.1
+openai>=1.0
+anthropic>=0.40
+langchain>=0.3
+langchain-core>=0.3
+langchain-openai>=0.3
+langchain-text-splitters>=0.3
+chromadb>=0.5
+python-dotenv>=1.0

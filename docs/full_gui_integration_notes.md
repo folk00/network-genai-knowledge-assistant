@@ -4,17 +4,9 @@ This repo treats the original desktop app as the main product demo.
 
 ## Source Of Truth
 
-The main GUI code comes from the local working file:
-
-```text
-C:\Users\davidgo2\Downloads\00_ACTIVE\ans_c01_quiz_gui_v2_counterfix2.py
-```
-
-The AI workflow module comes from:
-
-```text
-C:\Users\davidgo2\Downloads\00_ACTIVE\quiz_ai_coach.py
-```
+The main GUI code originated as a standalone PySide6 desktop app
+(`ans_c01_quiz_gui_v2_counterfix2.py`) plus its Claude/OpenAI workflow module
+(`quiz_ai_coach.py`).
 
 In this repo they live under:
 

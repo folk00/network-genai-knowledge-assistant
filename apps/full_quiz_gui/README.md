@@ -2,7 +2,7 @@
 
 This is the full desktop application version copied from the working local app.
 The code is based on the `ans_c01_quiz_gui_v2_counterfix2.py` file from the
-local ACTIVE workspace, with one ready addition: `RAG KB`.
+local ACTIVE workspace, with one added integration point: `RAG KB`.
 
 It is intentionally included as code only. Real quiz banks and override files
 must stay local under:

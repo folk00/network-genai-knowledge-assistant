@@ -1,6 +1,6 @@
 # network_ai_assistant
 
-Python package for the ready scaffold.
+Python package for the knowledge retrieval and LLM workflow scaffold.
 
 Keep this package small:
 

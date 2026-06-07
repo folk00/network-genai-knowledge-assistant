@@ -1,7 +1,6 @@
 # Demo Walkthrough
 
-This is the recommended demo path for a viewers screen or technical
-conversation.
+This is the recommended end-to-end demo path.
 
 ## 30-Second Intro
 
@@ -32,7 +31,7 @@ Open the full GUI and point out:
 - confidence tracking
 - per-question statistics
 
-key point:
+Key point:
 
 > The app is not just a prompt. It has deterministic learning state and workflow
 > control around the model.
@@ -42,7 +41,7 @@ key point:
 Use a safe local/private test file if you are demoing live. Do not show protected
 question banks on a public screen recording.
 
-key point:
+Key point:
 
 > AI Coach and Deep Review are workflow buttons. The app builds the structured
 > context, sends it to the selected backend, and persists the response as a
@@ -60,11 +59,11 @@ What happens:
 - supplemental safe docs can be included
 - the model gets a grounded prompt with citations
 
-key point:
+Key point:
 
-> This demonstrates the RAG pattern I would use for network operations. Replace
-> questions with MOPs, configs, logs and runbooks, and the workflow shape is the
-> same.
+> This demonstrates the RAG pattern that applies to network operations. Replace
+> questions with MOPs, configs, logs and runbooks, and the workflow shape is
+> the same.
 
 ### 4. Show The Public RAG Script
 
@@ -74,7 +73,7 @@ If you do not want to use private files:
 python .\scripts\demo_local_rag.py
 ```
 
-key point:
+Key point:
 
 > The public demo uses synthetic data and does not require an API key. It shows
 > ingestion, chunking, retrieval and grounded prompt construction.
@@ -87,9 +86,9 @@ Run:
 python .\scripts\safety_scan.py
 ```
 
-key point:
+Key point:
 
-> I separated private material from publishable code. The repo includes mock
+> Private material is separated from publishable code. The repo includes mock
 > data, safety checks and Git ignore rules for private banks, reports, logs and
 > credentials.
 
@@ -104,7 +103,7 @@ Do not show:
 - local auth/session files
 - generated reports based on private content
 
-## Best Closing Line
+## Summary
 
 > The important part is the architecture: deterministic software controls data,
 > context and workflow; the LLM provides reasoning inside clear boundaries.

@@ -16,7 +16,7 @@ next.
 - There is no hosted web service yet.
 - There is no production tenant model yet.
 
-## Why These Choices Are Acceptable For A reference project
+## Why These Choices Are Acceptable
 
 The goal is to demonstrate architecture and working software without publishing
 protected material. The project shows:
@@ -44,9 +44,9 @@ If this were expanded into an enterprise tool, the next steps would be:
 - observability and audit logs
 - human approval before any network change
 
-## summary
+## Honest Scope
 
-> This is not a production autonomous network agent. It is a working applied
-> GenAI assistant that demonstrates the engineering patterns I would use to build
-> one safely: controlled workflows, retrieval, citations, provider abstraction,
-> report persistence and human validation.
+This is not a production autonomous network agent. It is a working applied
+GenAI assistant that demonstrates the engineering patterns required to build
+one safely: controlled workflows, retrieval, citations, provider abstraction,
+report persistence and human validation.

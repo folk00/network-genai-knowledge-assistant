@@ -1,2 +1,2 @@
-"""ready Network AI Assistant scaffold."""
+"""Network AI Assistant scaffold."""
 

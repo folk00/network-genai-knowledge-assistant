@@ -1,6 +1,6 @@
 # Roadmap
 
-## Phase 1 - demos Ready
+## Phase 1 - Foundation
 
 - sanitize project
 - add mock data only
@@ -8,7 +8,6 @@
 - add local deterministic retriever demo
 - explain current GenAI workflows clearly
 - add LangChain adapter scaffold
-- add project notes
 
 ## Phase 2 - Real RAG
 
@@ -41,7 +40,7 @@
 - add LangSmith or equivalent tracing
 - optionally deploy with Docker/OpenShift
 
-## Phase 5 - demo
+## Phase 5 - Public Demo
 
 - 5 minute walkthrough video
 - sanitized screenshots

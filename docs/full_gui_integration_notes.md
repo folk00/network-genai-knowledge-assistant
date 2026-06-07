@@ -38,8 +38,8 @@ src/network_ai_assistant/
 ```
 
 The old app remains useful as the polished UI. The new project structure adds
-the summary: safe data boundaries, mock data, retrieval, citations,
-provider abstraction and dry-run defaults.
+safe data boundaries, mock data, retrieval, citations, provider abstraction
+and dry-run defaults.
 
 ## What Should Stay Private
 

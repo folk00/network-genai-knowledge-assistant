@@ -14,7 +14,7 @@ TOKEN_RE = re.compile(r"[a-zA-Z0-9_.:/-]+")
 class KeywordRetriever:
     """Small deterministic retriever for local demos.
 
-    This is not a replacement for embeddings. It exists so the walkthrough demo can
+    This is not a replacement for embeddings. It exists so the local demo can
     run without API keys or vector DB setup.
     """
 

@@ -72,11 +72,8 @@ Before pushing:
 5. Review staged files with `git diff --cached --name-only`.
 6. Do not stage private DOCX/CSV/report files.
 
-## How To Explain This In demos
+## Summary
 
-Say:
-
-> The public repo is sanitized. It includes the code, mock data and architecture
-> docs, but excludes real question banks, protected material, generated reports
-> and credentials. That is intentional because GenAI projects need data
-> boundaries from the beginning.
+The public repo is sanitized. It includes the code, mock data and architecture
+docs, but excludes real question banks, protected material, generated reports
+and credentials. GenAI projects need data boundaries from the beginning.

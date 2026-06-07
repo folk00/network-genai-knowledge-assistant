@@ -1,8 +1,7 @@
 # Network GenAI Knowledge Assistant
 
-An ready reference project that demonstrates applied GenAI for
-networking, AWS networking study workflows and infrastructure knowledge
-retrieval.
+A reference project that demonstrates applied GenAI for networking, AWS
+networking study workflows and infrastructure knowledge retrieval.
 
 The project started as a full Python/PySide6 desktop application for AWS
 Advanced Networking study and evolved into a safer, more explainable GenAI
@@ -80,19 +79,19 @@ start_gui.bat
 The full GUI is the primary demo. The smaller scripts are there to make the RAG
 layer easy to inspect from the command line.
 
-## What To Demo In An demos
+## Quick Demo Path
 
 1. Open the full GUI with `python run.py`.
 2. Load a private local DOCX question bank only on your machine.
 3. Load a private local override CSV if needed.
-4. Show deterministic features first: profiles, wrong-answer bank, repeat-all,
+4. Explore deterministic features: profiles, wrong-answer bank, repeat-all,
    confidence tracking and reports.
-5. Show AI workflows: AI Coach, Deep Review, Nuclear Review, Diagram or Teach
-   Zero.
-6. Show `RAG KB`: it retrieves related context from the loaded question bank,
+5. Try the AI workflows: AI Coach, Deep Review, Nuclear Review, Diagram or
+   Teach Zero.
+6. Use `RAG KB`: it retrieves related context from the loaded question bank,
    excludes the current question, optionally adds sanitized knowledge docs, and
    sends a grounded review to the selected backend after confirmation.
-7. Explain that the public repo uses mock data and safety boundaries.
+7. Note that the public repo uses mock data and safety boundaries.
 
 See [docs/demo_walkthrough.md](docs/demo_walkthrough.md) for a step-by-step
 script.
@@ -232,30 +231,13 @@ Expected result:
 apps/full_quiz_gui/        Full desktop app copied from the working tool
 data/mock/                 Synthetic public demo data
 data/private/              Local-only private input location
-docs/                      Architecture, demo and design notes
+docs/                      Architecture and demo notes
 scripts/                   Small command-line demos and safety scan
 src/network_ai_assistant/  RAG, LLM and workflow scaffold
 tests/                     Lightweight retrieval tests
 ```
 
 See [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md) for a fuller map.
-
-## summary
-
-Use this phrasing:
-
-> I built a GenAI-assisted network knowledge assistant where deterministic
-> software controls parsing, state, context selection, retrieval and report
-> persistence. Claude/OpenAI-style models are used as reasoning engines inside
-> controlled workflows for explanation, diagnosis, diagram generation and
-> synthesis. I am extending the same pattern into enterprise RAG with chunking,
-> metadata, citations, evaluation and safe data boundaries.
-
-Avoid saying:
-
-- "I built production enterprise GenAI agents for customers."
-- "This repo contains real certification questions."
-- "The LLM controls the application."
 
 ## What Is Not Included
 

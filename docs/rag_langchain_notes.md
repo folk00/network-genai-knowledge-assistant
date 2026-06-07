@@ -37,7 +37,7 @@ Enterprise RAG adds control:
 - tracing
 - human validation
 
-The biggest key points:
+Key principle:
 
 > RAG is not just a vector database. The real value is controlled retrieval,
 > source grounding and auditability.
@@ -61,10 +61,10 @@ simple_retriever.py      local no-dependency demo
 langchain_adapter.py     optional LangChain version
 ```
 
-That lets you explain both:
+That keeps two paths open:
 
-- "I understand the architecture without depending on a framework."
-- "I can also plug it into LangChain-style components."
+- understand the architecture without depending on a framework
+- plug it into LangChain-style components when needed
 
 ## Practical Implementation Path
 

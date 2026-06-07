@@ -89,19 +89,13 @@ The LLM owns:
 | Source citations | Make answers auditable |
 | Chunk IDs | Trace every claim back to a document section |
 | Prompt templates | Keep workflows predictable |
-| Evaluation set | Test retrieval quality before demos/demos |
+| Evaluation set | Test retrieval quality before demos |
 | Human approval | Avoid automatic changes from unverified LLM output |
 | Secret redaction | Prevent leaks in prompts, logs and reports |
 
-## Good scope distinction
+## Honest Scope
 
-Say:
-
-> I have implemented RAG-style context reuse and I am extending it into a more
-> enterprise-grade RAG pattern with indexing, metadata filtering, citations and
-> evaluation.
-
-Avoid:
-
-> I am a production RAG platform expert.
+This project implements RAG-style context reuse with local retrieval, citations
+and a clear path toward enterprise-grade RAG (indexing, metadata filtering and
+evaluation). It is a working reference, not a production-hardened platform.
 

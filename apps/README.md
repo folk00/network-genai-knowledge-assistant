@@ -18,7 +18,7 @@ Copy of the original PySide6 desktop app with the richer interface:
 - Diagram generation
 - Teach Zero / Catedra
 - Claude/OpenAI provider switching
-- RAG KB button wired to the ready retrieval/SDK layer
+- RAG KB button wired to the retrieval/SDK layer
 
 The app code is safe to publish, but do not publish real quiz DOCX files,
 override files, generated reports, or screenshots showing protected content.

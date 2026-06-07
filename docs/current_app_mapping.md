@@ -37,12 +37,10 @@ have a formal retrieval layer with:
 - retrieval evaluation
 - access-control thinking
 
-That is what this ready folder adds as a clean next step.
+That is what this scaffold adds as a clean next step.
 
-## How To Explain It
+## Summary
 
-Use this:
-
-> My original app already had applied GenAI workflows and agent-style analysis.
-> This version separates the knowledge layer into a RAG architecture: ingestion,
-> chunking, retrieval, metadata, citations and workflow prompts.
+The original app already had applied GenAI workflows and agent-style analysis.
+This version separates the knowledge layer into a RAG architecture: ingestion,
+chunking, retrieval, metadata, citations and workflow prompts.

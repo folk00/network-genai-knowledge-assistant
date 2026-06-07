@@ -13,7 +13,7 @@ DOC_HEADER_RE = re.compile(r"^##\s+(DOC-\d+)\s+-\s+(.+)$", re.MULTILINE)
 def load_markdown_documents(path: Path) -> list[SourceDocument]:
     """Load synthetic Markdown docs separated by DOC headers.
 
-    This loader is intentionally simple for walkthrough demos. A production loader
+    This loader is intentionally simple for local demos. A production loader
     would handle DOCX/PDF/HTML, redaction, source versioning and access labels.
     """
 

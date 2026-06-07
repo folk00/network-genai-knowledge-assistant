@@ -1,13 +1,13 @@
 # Project Structure
 
 This repo is intentionally small. The goal is to make the architecture easy to
-explain in an demos, not to hide the idea behind a giant framework.
+read and explain, not to hide the idea behind a giant framework.
 
 ```text
-ai-network-knowledge-assistant-ready/
+network-genai-knowledge-assistant/
 |
 |-- README.md
-|   Main project overview and summary.
+|   Main project overview.
 |
 |-- run.py
 |   Default launcher. Starts the full original PySide6 GUI.
@@ -26,7 +26,7 @@ ai-network-knowledge-assistant-ready/
 |   The full GUI is the main product demo; the smaller GUI is only a RAG demo.
 |
 |-- docs/
-|   Short human-readable notes: architecture, RAG, roadmap, demo pitch.
+|   Short human-readable notes: architecture, RAG, roadmap and design notes.
 |
 |-- scripts/
 |   Small demos that can run from the command line.

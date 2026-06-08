@@ -1,5 +1,7 @@
 # Network GenAI Knowledge Assistant
 
+[![CI](https://github.com/folk00/network-genai-knowledge-assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/folk00/network-genai-knowledge-assistant/actions/workflows/ci.yml)
+
 A reference project that demonstrates applied GenAI for networking, AWS
 networking study workflows and infrastructure knowledge retrieval.
 

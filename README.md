@@ -1,6 +1,10 @@
 # Network GenAI Knowledge Assistant
 
 [![CI](https://github.com/folk00/network-genai-knowledge-assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/folk00/network-genai-knowledge-assistant/actions/workflows/ci.yml)
+[![Python 3.12](https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![PySide6](https://img.shields.io/badge/PySide6-Qt-41CD52?logo=qt&logoColor=white)](https://doc.qt.io/qtforpython/)
+[![LangChain](https://img.shields.io/badge/LangChain-RAG-1C3C3C)](https://www.langchain.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A reference project that demonstrates applied GenAI for networking, AWS
 networking study workflows and infrastructure knowledge retrieval.
